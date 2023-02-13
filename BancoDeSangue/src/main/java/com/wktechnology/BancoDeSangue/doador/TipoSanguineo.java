@@ -1,8 +1,16 @@
 package com.wktechnology.BancoDeSangue.doador;
 
+import jakarta.persistence.Embeddable;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
 import java.io.Serializable;
 
+@Embeddable
 public enum TipoSanguineo  {
+    O_NEGATIVO;
+    /*
     A_POSITIVO("A+"),
     A_NEGATIVO("A-"),
     B_POSITIVO("B+"),
@@ -20,5 +28,7 @@ public enum TipoSanguineo  {
     public String getTipoSanguineoSimbolo(){
         return getTipoSanguineoSimbolo();
     }
+
+     */
 
 }
