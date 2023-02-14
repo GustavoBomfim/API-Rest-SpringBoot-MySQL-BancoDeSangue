@@ -12,14 +12,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Contato {
-    @Column(name = "telefone_fixo")
-    private String telefoneFixo;
+    //@Column(name = "telefone_fixo")
+    private String telefone_fixo;
     private String celular;
     @Email
     private String email;
 
     public Contato(DadosCadastroContato dados){
-        this.telefoneFixo = dados.telefoneFixo();
+        this.telefone_fixo = dados.telefone_fixo();
         this.celular = dados.celular();
         this.email = dados.email();
 

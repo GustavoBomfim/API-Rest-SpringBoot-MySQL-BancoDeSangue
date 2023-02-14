@@ -24,8 +24,8 @@ public class Doador {
     private String nome;
     private String cpf;
     private String rg;
-    @Column(name = "data_nasc")
-    private Date dataNasc;
+    //@Column(name = "data_nasc")
+    private String data_nasc;
     private String sexo;
     private String mae;
     private String pai;
@@ -36,14 +36,14 @@ public class Doador {
     private Double altura;
     private int peso;
     // escolher o nome da tabela como tipo_sanguineo
-    @Embedded
-    private TipoSanguineo tipoSanguineo;
+
+    private String tipo_sanguineo;
 
     public Doador(DadosCadastroDoador dados) {
         this.nome = dados.nome();
         this.cpf = dados.cpf();
         this.rg = dados.rg();
-        this.dataNasc = dados.dataNasc();
+        this.data_nasc = dados.data_nasc();
         this.sexo = dados.sexo();
         this.mae = dados.mae();
         this.pai = dados.pai();
@@ -51,7 +51,7 @@ public class Doador {
         this.contato = new Contato(dados.contato());
         this.altura = dados.altura();
         this.peso = dados.peso();
-        this.tipoSanguineo = dados.tipoSanguineo();
+        this.tipo_sanguineo = dados.tipo_sanguineo();
 
 
     }

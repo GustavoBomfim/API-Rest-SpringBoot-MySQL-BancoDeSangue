@@ -20,7 +20,7 @@ public class DoadorController {
     @PostMapping
     @Transactional
     public void cadastrar(@RequestBody DadosCadastroDoador dados){
-        //repository.save(new Doador(dados));
+        repository.save(new Doador(dados));
         System.out.println("Registros \n \n" +  dados);
     }
 }

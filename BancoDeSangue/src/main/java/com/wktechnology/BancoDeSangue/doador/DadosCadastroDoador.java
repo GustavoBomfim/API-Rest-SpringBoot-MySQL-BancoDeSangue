@@ -14,7 +14,7 @@ public record DadosCadastroDoador(
         String nome,
         String cpf,
         String rg,
-        Date dataNasc,
+        String data_nasc,
         String sexo,
         String mae,
         String pai,
@@ -22,5 +22,5 @@ public record DadosCadastroDoador(
         DadosCadastroContato contato,
         Double altura,
         int peso,
-        TipoSanguineo tipoSanguineo) {
+        String tipo_sanguineo) {
 }

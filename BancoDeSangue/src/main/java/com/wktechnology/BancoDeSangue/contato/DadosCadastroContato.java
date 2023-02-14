@@ -4,7 +4,7 @@ import jakarta.persistence.Column;
 
 public record DadosCadastroContato(
 
-        String telefoneFixo,
+        String telefone_fixo,
         String celular,
         String email
 
