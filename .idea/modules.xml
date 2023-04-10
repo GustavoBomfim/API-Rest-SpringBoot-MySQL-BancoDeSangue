@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/API-Rest-SpringBoot-MySQL-BancoDeSangue.iml" filepath="$PROJECT_DIR$/.idea/API-Rest-SpringBoot-MySQL-BancoDeSangue.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BancoDeSangue/BancoDeSangue.iml" filepath="$PROJECT_DIR$/BancoDeSangue/BancoDeSangue.iml" />
     </modules>
   </component>
 </project>

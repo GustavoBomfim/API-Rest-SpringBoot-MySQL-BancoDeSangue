@@ -10,9 +10,6 @@
         <module name="BancoDeSangue" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="BancoDeSangue" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
